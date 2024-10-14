@@ -24,7 +24,7 @@ header {
     padding: 10px;
 }
 
-/**/
+/*styling navbar*/
 
 .navbar {
     display: flex;
@@ -97,13 +97,14 @@ footer ul li a {
 footer ul li a:hover {
     color: #d3c2f3;
 }
-
+/*styling book section*/
 .book{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center; 
 }
 
+/*styling image*/
 .img {
     margin-top: 20px;
     margin-bottom: 20px;
