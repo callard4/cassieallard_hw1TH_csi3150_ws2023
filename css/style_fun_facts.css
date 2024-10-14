@@ -1,0 +1,112 @@
+/*import google's font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*removing default margins for consistent layout across each page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*applies font to entire body, sets background and default text color*/
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(120, 119, 182);
+    color: #141414;
+    
+}
+/*styling for header, sets background and text color for background*/
+header {
+    
+    align-items: center;
+    background-color: #23272e;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/**/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/*adding space between the words in the heading*/
+.navbar h2 {
+    word-spacing: 10px;
+    margin-right: 200px;
+}
+
+/*removing bullet points, styling the lists, removing padding*/
+.navbar ul {   
+    list-style-type: none;
+    height: 30px; line-height: 30px;
+    padding: 0;
+    margin: 0;
+
+}
+
+/*adding space between list items*/
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/*styling links*/
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/*styling the hovering*/
+.navbar li a:hover{
+    background-color: #d3c2f3;
+    color: #000000; 
+}
+
+/*sytling footer, adding padding, putting text in center*/
+footer {
+    
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+/*removing bullet points and default padding*/
+footer ul {
+  list-style: none; 
+  padding: 0;       
+}
+
+/*adding space between items*/
+footer ul li {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+/*changing link color, removing underline*/
+footer ul li a {
+    color: #01689c;
+    text-decoration: none;
+}
+/*adding hover color*/
+footer ul li a:hover {
+    color: #d3c2f3;
+}
+
+.book{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+}

@@ -1,0 +1,150 @@
+/*import google's font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*removing default margins for consistent layout across each page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*applies font to entire body, sets background and default text color*/
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(120, 119, 182);
+    color: #141414;
+    
+}
+/*styling for header, sets background and text color for background*/
+header {
+    
+    align-items: center;
+    background-color: #23272e;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*pushing navbar to right side*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+/*adding space between the words in the heading*/
+.navbar h2 {
+    word-spacing: 10px;
+    margin-right: 200px;
+}
+
+/*removing bullet points, styling the lists, removing padding*/
+.navbar ul {   
+    list-style-type: none;
+    height: 30px; line-height: 30px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+
+}
+
+/*adding space between list items*/
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/*styling links*/
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/*styling the hovering*/
+.navbar li a:hover{
+    background-color: #d3c2f3;
+    color: #000000; 
+}
+
+/*centering the main*/
+main {
+    text-align: center;
+    padding: 50px 20px; 
+}
+/*adding space around image*/
+.img img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*styling about me paragraph, putting writing in a box and making it a different color, adding padding, adding space around box*/
+.aboutme {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: beige;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+/*adding space around quote*/
+.quote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*styling progress bar, setting size, removing default*/
+progress { 
+    width: 100%; 
+    height: 25px; 
+    border-radius: 10px; 
+    appearance: none; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*styling unfilled portion, making white color*/
+progress::-webkit-progress-bar {
+    background-color: #f4f4f4; 
+}
+
+/*styling filled portion, making darker color and rounding edges*/
+progress::-webkit-progress-value {
+    background-color: #303235; 
+    border-radius: 10px; 
+}
+
+/*sytling footer, adding padding, putting text in center*/
+footer {
+    
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+/*removing bullet points and default padding*/
+footer ul {
+  list-style: none; 
+  padding: 0;       
+}
+
+/*adding space between items*/
+footer ul li {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+/*changing link color, removing underline*/
+footer ul li a {
+    color: #01689c;
+    text-decoration: none;
+}
+/*adding hover color*/
+footer ul li a:hover {
+    color: #d3c2f3;
+}
